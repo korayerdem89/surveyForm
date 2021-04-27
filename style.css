@@ -1,0 +1,189 @@
+*, *::before, *:after{
+    box-sizing:border-box;
+  }   
+  
+  body {
+  line-height:1.5em;
+  background-color:rgba(0,0,600,0.25);}
+   
+  
+  #title{
+  text-align:center;
+  font-size:40px;}
+  
+  
+  p{font-size:15px;
+  text-align:center;}
+  
+  
+  #survey-form{background-color:rgba(27, 27, 50, 0.8);
+  max-width:45%;
+  margin:0px auto 50px auto;
+  padding:30px;
+  color:white;
+  display:block;
+  border-radius:5px;}
+  
+  
+  
+  .form-group{
+    text-align:left;
+    margin:10px auto 10px 80px;}
+  
+  #name-label {display:block;
+  font-size:25px;
+  font-weight:900;
+  margin-bottom:6px;
+  }
+  
+  
+  
+  #email-label {display:block;
+  font-size:25px;
+  font-weight:900;
+  margin-bottom:6px;
+  }
+  
+  
+  
+  
+  #number-label {
+    display:block;
+  font-size:25px;
+  font-weight:900;
+  margin-bottom:6px;
+  }
+  
+  
+  
+  
+  .mainlabel {display:block;
+  font-size:25px;
+  font-weight:900;
+  margin-bottom:6px;
+  }
+  
+  
+  #name {
+    width:85%;
+  font-size:18px;
+  height:2em;
+  border-radius:10px;
+  margin-bottom:30px;}
+  
+  
+  
+  #email {width:85%;
+  font-size:18px;
+  height:2em;
+  border-radius:10px;
+  margin-bottom:30px;}
+  
+  
+  
+  
+  #number {width:85%;
+  font-size:18px;
+  height:2em;
+  border-radius:10px;
+  margin-bottom:30px;}
+  
+  
+  
+  
+  span{font-size:15px;
+  vertical-align:text-bottom;
+  color:limegreen;}
+  
+  
+  
+  select {font-size:1em;
+  width:85%;;
+  height:2.5em;
+  border-radius:10px;}
+  
+  
+  
+  #hobbies{text-align:left;
+    margin:0 auto 30px 100px;
+  font-size:1em;
+  display:flex;
+  flex-direction:column;}
+  
+  
+  
+  
+  #dropdown{margin-bottom:30px;}
+  
+  #checklabel {display:block;
+  font-size:25px;
+  font-weight:900;
+  margin-bottom:6px;
+  }
+  
+  
+  
+  
+  #genderlabel {display:block;
+  font-size:25px;
+  margin-bottom:6px;}
+  
+  
+    
+    #gender-div{text-align:left;
+    margin:0 auto 30px 100px;
+  font-size:1em;
+  display:flex;
+      flex-direction:column;}
+  
+  
+  
+  #gender{margin-bottom:10px;}
+  
+  #text{width:85%;;
+  height:200px;}
+  
+  #textarea {text-align:left;
+    margin:0 auto 30px 100px;
+  font-size:1em;
+  display:flex;
+  flex-direction:column;
+  font-size:25px;}
+  
+  
+  
+  .ask-label{margin-bottom:10px;}
+  
+  #submit{
+  height:40px;
+  background-color:limegreen;
+  color:white;
+  font-size:18px;}
+  
+  
+  
+  #submit-div { 
+    margin:10px auto 20px auto;
+  display:flex;
+  justify-content:center;}
+  
+  #submit:hover {background-color:green;}
+  
+  @media screen and (max-width:750px) {
+    
+    #survey-form{max-width:100%;}
+    
+    .form-group{
+      width:100%;
+      margin:10px 1px;}
+     
+    #hobbies {width:100%;
+    margin:10px 1px;}
+    
+     #gender-div {width:100%;
+    margin:10px 1px;}
+    #textarea {width:100%;
+    margin:10px 1px;}
+    #name, #email, #number, #hobbies,#gender-div, #dropdown, #textarea, #submit-div {margin-bottom:5px;}
+  
+  }

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Survey Form</title>
+</head>
+<body> 
+<header> 
+    <h1 id="title"> Survey Form</h1>
+    <p id="description">
+      This is a random survey form
+    </p>
+  </header>
+  
+  <form id="survey-form">
+    <div class="form-group">
+      <label id="name-label" for="name">Name<span> *</span></label>
+      <input id="name"
+             type="name"
+             placeholder="Enter your name"
+             required /> 
+      </div>
+    <div class="form-group">
+      <label id="email-label" for="email">Email<span> *</span></label>
+      <input id="email"
+             type="email"
+             placeholder="Enter your email"
+             required />
+            
+      </div>
+    
+     <div class="form-group">
+       <label id="number-label" for="age">Age<span> (optional)</span></label>
+      <input id="number"
+             type="number"
+             min="10"
+             max="99"
+             placeholder="Enter your Age"
+             required
+             </input>    
+      </div>
+    
+    <div class="form-group">
+       <label class="mainlabel">Which option best describes you?<span> (optional)</span></label>
+    <select id="dropdown">
+      <option disabled="disabled" selected="selected">Choose your option </option>
+       <option valu="strong">Strong</option>
+       <option value="genius">Genius</option>
+       <option value="careless">Careless</option>
+      </select>
+      </div>
+    <div id="hobbies">
+      <label id="checklabel">Choose your hobbies<span> *</span> </label>
+    <label> <input class="checkbox"
+            type="checkbox"
+                   value="tennis"/> Tennis</label>
+      
+      <label> <input class="checkbox"
+            type="checkbox"
+                     value="basketball"
+                     name="basketball"/> Basketball</label>
+      <label> <input class="checkbox"
+            type="checkbox"
+                     value="football"
+                     name="football"/> Football </label>
+      <label> <input class="checkbox"
+            type="checkbox"
+                     value="cricket"
+                     name="cricket"/>Cricket</label>
+      <label> <input class="checkbox"
+            type="checkbox" 
+                     value="boxing"
+                     name="boxing"/> Boxing </label>
+     
+      </div>
+                           
+    <div id="gender-div">
+      <label id="genderlabel">Gender<span> *</span></label>
+     <label> <input id="gender"
+                    type="radio"
+                    name="gender"
+                    value="male"
+                   required />Male</label>
+        <label> <input id="gender"
+                    type="radio"
+                    name="gender"
+                    value="female"
+                       />Female</label>
+                           </div>
+    <div id="textarea">
+      <label class="ask-label">Ask something<span>(optional</span></label>
+      <textarea
+         name="textarea"
+                id="text" 
+                placeholder="Enter your comment here"></textarea>
+      
+    </div>
+   <div id="submit-div">
+     <input type="submit"
+            name="Submit"
+            id="submit"/>   
+    </div>
+                    
+        
+  </form>
+
+</body>
+</html>
